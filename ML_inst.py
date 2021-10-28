@@ -3,7 +3,7 @@ import numpy as np
 import os, joblib
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import LinearRegression
+
 import lightgbm as lgb
 from imblearn.over_sampling import SMOTE
 
